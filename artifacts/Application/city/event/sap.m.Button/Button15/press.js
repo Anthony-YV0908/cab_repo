@@ -1,0 +1,2 @@
+deleteCity(oEvent)
+deletecity(oEvent)

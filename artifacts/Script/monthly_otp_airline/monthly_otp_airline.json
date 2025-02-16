@@ -1,0 +1,34 @@
+{
+	"id": "3fa4895b-0cd1-4bb0-8d6f-15f465b194ed",
+	"createdAt": "2025-01-21T02:07:10.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "internal_moment",
+			"name": "moment",
+			"contextname": "moment",
+			"path": "moment"
+		}
+	],
+	"entitySets": [
+		{
+			"id": "844cec8d-5411-4d48-9466-41290d7f1632",
+			"name": "monthly_otp",
+			"contextname": "monthly_otp"
+		}
+	],
+	"apis": [],
+	"name": "monthly_otp_airline",
+	"ver": "25.02.02.1623",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "2de22d32-a86c-4e1f-ae61-13f6a1b49072",
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54"
+}

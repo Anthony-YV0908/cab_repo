@@ -1,0 +1,3 @@
+paginationBar15.pagination15.index++;
+paginationBar15.handleModePagination15(); // Fetch data for current mode
+paginationBar15.updatePaginationUI15(); // Reflect UI changes

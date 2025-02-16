@@ -1,0 +1,6 @@
+var maxIndex = (paginationBar4.totalCount4 / paginationBar4.pagination4.take);
+maxIndex = Math.ceil(maxIndex);
+
+paginationBar4.pagination4.index = maxIndex;
+paginationBar4.run4(true); 
+paginationBar4.handlePagination4();

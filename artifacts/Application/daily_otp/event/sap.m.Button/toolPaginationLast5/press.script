@@ -1,0 +1,6 @@
+var maxIndex = (paginationBar5.totalCount5 / paginationBar5.pagination5.take);
+maxIndex = Math.ceil(maxIndex);
+
+paginationBar5.pagination5.index = maxIndex;
+paginationBar5.handleModePagination8(); // Fetch data for current mode
+paginationBar5.updatePaginationUI8(); // Reflect UI changes

@@ -1,0 +1,27 @@
+{
+	"id": "41ab41b3-ad01-470c-9e04-a2f0633d4331",
+	"createdAt": "2025-01-16T09:31:59.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "9a16dc92-8077-4b52-b85b-8c0723107ab1",
+			"name": "tbl_city",
+			"contextname": "tbl_city"
+		}
+	],
+	"apis": [],
+	"name": "City_Search",
+	"ver": "25.01.18.1449",
+	"description": null,
+	"folder": "Migration",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "2de22d32-a86c-4e1f-ae61-13f6a1b49072",
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54"
+}

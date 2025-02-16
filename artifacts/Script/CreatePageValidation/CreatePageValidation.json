@@ -1,0 +1,32 @@
+{
+	"id": "da5e0dda-2583-4acd-bd21-4286f22d1e90",
+	"createdAt": "2025-01-21T07:57:25.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "0e8f8aa9-a322-441a-9a7c-c933b51362e2",
+			"name": "daily_otp",
+			"contextname": "daily_otp"
+		},
+		{
+			"id": "0e8f8aa9-a322-441a-9a7c-c933b51362e2",
+			"name": "daily_otp",
+			"contextname": "daily_otp"
+		}
+	],
+	"apis": [],
+	"name": "CreatePageValidation",
+	"ver": "25.01.30.0935",
+	"description": null,
+	"folder": "Validation",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "2de22d32-a86c-4e1f-ae61-13f6a1b49072",
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54"
+}

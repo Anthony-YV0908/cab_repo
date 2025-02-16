@@ -1,0 +1,4 @@
+ var tableName = Table.getId() 
+exportToExcel(`#${tableName}`);
+
+

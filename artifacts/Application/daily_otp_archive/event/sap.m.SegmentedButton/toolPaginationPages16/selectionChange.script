@@ -1,0 +1,3 @@
+paginationBar17.pagination17.index = parseInt(this.getSelectedKey());
+paginationBar17.handleModePagination17(); 
+paginationBar17.updatePaginationUI17();

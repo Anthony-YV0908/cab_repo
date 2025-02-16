@@ -1,0 +1,4 @@
+paginationBar7.pagination7.index--;
+paginationBar7.handleModePagination6(); // Fetch data for current mode
+paginationBar7.updatePaginationUI6(); // Reflect UI changes
+

@@ -1,0 +1,392 @@
+{
+	"id": "3dd6a8f6-c4be-4543-95da-6a1713f87952",
+	"createdAt": "2025-01-17T00:56:32.000Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "41a0700d-879c-419f-9775-257378bbb118",
+			"path": "/province_archive",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "province_archive"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "f409c384-e4c7-48d7-ab5f-79de689af872",
+			"path": "/province_archive",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "province_archive"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "province_archive"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "83d0b93d-f545-4b38-b4ae-6f6db8ca4853",
+			"path": "/province_archive",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "province_archive"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "province_archive"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "a1a6e4e3-3400-4348-9abe-74d95850ee2d",
+			"path": "/province_archive",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "province_archive"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "c79d76a1-dc4b-4c78-ac06-a744b7be87ff",
+			"path": "/province_archive/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "888f859d-4bdc-44a5-8e5d-9b19b98484b9",
+			"name": "province_archive",
+			"properties": [
+				{
+					"id": "9663dc69-a091-4901-a4b0-52954887d285",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "8985e835-84ff-4f4d-a89c-d71c9e644a05",
+					"parent": "",
+					"name": "ProvinceCode",
+					"objectType": "integer"
+				},
+				{
+					"id": "52bd15c4-77cf-425f-9e4a-228e77250cef",
+					"parent": "",
+					"name": "ProvinceName",
+					"default": "100",
+					"objectType": "string"
+				},
+				{
+					"id": "c197b8e8-c8d6-484b-af3a-5387eaa3b276",
+					"parent": "",
+					"name": "RegionCode",
+					"default": "100",
+					"objectType": "string"
+				},
+				{
+					"id": "c3e388ca-0c37-4376-84fd-65daff40027c",
+					"parent": "",
+					"name": "CreationTime",
+					"objectType": "string"
+				},
+				{
+					"id": "afce3e49-1483-4102-89ab-8e402de21e47",
+					"parent": "",
+					"name": "CreatorUserId",
+					"objectType": "integer"
+				},
+				{
+					"id": "276cc562-efc3-4772-9b15-8cf2fd3e74ec",
+					"parent": "",
+					"name": "LastModificationTime",
+					"objectType": "string"
+				},
+				{
+					"id": "6738afe4-dc46-4d74-88fc-f3011913333f",
+					"parent": "",
+					"name": "LastModifierUserId",
+					"objectType": "integer"
+				},
+				{
+					"id": "04848964-07c1-4941-95b9-6da006641c84",
+					"parent": "",
+					"name": "isDeleted",
+					"default": "0",
+					"objectType": "integer"
+				},
+				{
+					"id": "a897a770-d27d-470b-a5c4-8ae3f75ab8f2",
+					"parent": "",
+					"name": "DeletionUserId",
+					"objectType": "integer"
+				},
+				{
+					"id": "9ac005ed-77e8-43db-99b0-1fb986426328",
+					"parent": "",
+					"name": "DeletionTime",
+					"objectType": "string"
+				},
+				{
+					"id": "5bdf6aed-6edc-42f7-a589-37ec39fc8bd9",
+					"parent": "",
+					"name": "ProvinceId",
+					"objectType": "string"
+				},
+				{
+					"id": "ba8e100a-1632-4fc2-b3f8-c85993558999",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "a365f2d7-beec-4ff9-8ce0-5e7307228e1d",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "bf665d9b-61de-4119-a2b6-3d4b7ff75d11",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "89f57782-1157-457d-b9ba-f5ccecae4c33",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "791a049d-6b53-4350-983d-ed19d5e8752a",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "73339bae-13c1-440c-971c-e2e9680905e3",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "42d3fb55-0644-4e32-8cca-2a91bcc45e7c",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "81cd76a0-8f74-40d6-a097-e092f4ad7e5d",
+			"name": "count",
+			"properties": [
+				{
+					"id": "e64f346d-c93e-47dd-ba62-c96a44c541b0",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "ProvinceArchive",
+	"endpoint": "/api/entity",
+	"ver": "25.02.17.0005",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54",
+	"apiGroup": "31d359ef-379b-4cbe-9b62-a2e2b4b6888f",
+	"apiFormat": 0,
+	"roles": []
+}

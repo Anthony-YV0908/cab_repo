@@ -1,0 +1,27 @@
+{
+	"id": "faa4d99c-7810-4d95-8599-b9f2d5513977",
+	"createdAt": "2025-01-16T09:32:38.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "13fbf541-030f-44e9-a7a0-a6c505e39f7a",
+			"name": "tbl_state",
+			"contextname": "tbl_state"
+		}
+	],
+	"apis": [],
+	"name": "State_Search",
+	"ver": "25.02.05.1135",
+	"description": null,
+	"folder": "Migration",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "2de22d32-a86c-4e1f-ae61-13f6a1b49072",
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54"
+}

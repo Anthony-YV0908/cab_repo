@@ -1,0 +1,392 @@
+{
+	"id": "b58d8a37-8c96-4ade-9565-b31f38b90dd4",
+	"createdAt": "2025-01-17T00:59:58.000Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "b218aa2f-62e5-4034-b15c-529dea63250a",
+			"path": "/country_archive",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "country_archive"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "d75b7e5f-8b10-460b-98a0-249f3dfb75c4",
+			"path": "/country_archive",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "country_archive"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "country_archive"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "68544d42-33cd-4f00-b93e-e771d5f328be",
+			"path": "/country_archive",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "country_archive"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "country_archive"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "6e46ccaa-b549-437a-9bbd-406198067a81",
+			"path": "/country_archive",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "country_archive"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "46cf1866-8460-44ea-b73d-d999d9646ba3",
+			"path": "/country_archive/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "469105b4-6417-4cda-a526-9dbe8421c726",
+			"name": "country_archive",
+			"properties": [
+				{
+					"id": "541dbe4b-87e2-4b70-9852-3fbad9e5e03c",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "ce7bcdf1-eb22-4e26-9d6e-06ecadf8a9bd",
+					"parent": "",
+					"name": "CreatorUserId",
+					"objectType": "integer"
+				},
+				{
+					"id": "f855f63d-d131-4bc1-a318-c0f6a05fd16f",
+					"parent": "",
+					"name": "CreationTime",
+					"objectType": "string"
+				},
+				{
+					"id": "e300dd3c-3ac9-48a7-b674-c742514099bb",
+					"parent": "",
+					"name": "LastModifierUserId",
+					"objectType": "integer"
+				},
+				{
+					"id": "1cea7abe-4521-4646-b820-fafc2f18bae7",
+					"parent": "",
+					"name": "LastModificationTime",
+					"objectType": "string"
+				},
+				{
+					"id": "46ee7517-f3d5-492c-82c5-4e77792cc176",
+					"parent": "",
+					"name": "DeleterUserId",
+					"objectType": "integer"
+				},
+				{
+					"id": "0b07e70c-a5e4-45c7-9655-bd0d1860f1ce",
+					"parent": "",
+					"name": "DeletionTime",
+					"objectType": "string"
+				},
+				{
+					"id": "bdf8f8e5-b04c-4be5-a84f-1304150e1f05",
+					"parent": "",
+					"name": "isDeleted",
+					"default": "0",
+					"objectType": "integer"
+				},
+				{
+					"id": "4d5702d0-55d2-49d0-92b3-23132049a863",
+					"parent": "",
+					"name": "CountryCode",
+					"default": "20",
+					"objectType": "string"
+				},
+				{
+					"id": "6450ffe5-3152-4c84-8ad4-fb30b3e9104c",
+					"parent": "",
+					"name": "CountryName",
+					"default": "500",
+					"objectType": "string"
+				},
+				{
+					"id": "bdf7cd21-ab4e-4418-95eb-6907c8146c16",
+					"parent": "",
+					"name": "GlobalRegionCode",
+					"objectType": "integer"
+				},
+				{
+					"id": "992824ad-9bbb-4b99-a9e7-2da76f479bbd",
+					"parent": "",
+					"name": "CountryId",
+					"objectType": "string"
+				},
+				{
+					"id": "f3e10484-45ed-4a6e-92f3-4efa915c06aa",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "160ac35e-3719-4211-83c4-f5b76396e780",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "55df67d2-b28a-42b8-b2d1-244af7af809c",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "023f8a14-9e07-4e1f-bfbf-9535c681aee8",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "dd4c6916-be63-4d51-ac99-afa450d939d8",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "96d122db-6a8e-4fc7-bde0-a19404274eac",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "f9fb70d5-b3b0-4a6d-8bee-242bb425eac5",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "3edb1d87-557a-4f2b-bc04-9f900f34df81",
+			"name": "count",
+			"properties": [
+				{
+					"id": "cdfb3cc6-b26e-4286-b54f-74282ecc6884",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "CountryArchive",
+	"endpoint": "/api/entity",
+	"ver": "25.02.17.0004",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54",
+	"apiGroup": "31d359ef-379b-4cbe-9b62-a2e2b4b6888f",
+	"apiFormat": 1,
+	"roles": []
+}

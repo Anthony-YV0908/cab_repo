@@ -1,0 +1,67 @@
+// /* Wrapper for table to allow horizontal scrolling */
+// .tablewrapper {
+//   overflow-x: auto; /* Enables horizontal scrolling */
+//   margin: 0 auto; /* Centers the table wrapper */
+// }
+
+// /* Table styles */
+// .Table {
+//   width: auto; /* Full width of the container */
+
+// }
+
+// .Table th, .Table td {
+//   padding: 8px 12px; /* Adds padding for better readability */
+//   text-align: left; /* Aligns text to the left */
+  
+// }
+
+// .Table th {
+
+//   font-weight: bold;
+// }
+
+// /* Make table rows wrap on small screens */
+// @media screen and (max-width: 768px) {
+//   .Table th, .Table td {
+//     display: block; /* Makes each cell block-level */
+//     width: 100%; /* Full width for each cell */
+//     box-sizing: border-box; /* Ensures padding doesn't add extra width */
+//   }
+
+//   .Table th {
+//     position: sticky; /* Keeps the header in place while scrolling */
+//     top: 0; 
+//     z-index: 2; 
+
+//   }
+// }
+
+
+
+// .Table-wrapper {
+//   overflow-x: auto;
+//   margin: 0 auto; /* Centers the table wrapper */
+// }
+
+// .Table {
+//   width:400%;
+//   border-collapse: collapse;
+//   table-layout: auto; /* Allows cells to adjust width based on content */
+// }
+
+// .Table th, .table td {
+//   padding: 8px 12px;
+//   text-align: left;
+// }
+
+// .Table th {
+//   font-size: 0.9rem; /* Adjust font size for table headers */
+//   font-weight: bold; /* Optional: Make headers bold for emphasis */
+// }
+
+
+// .Button14{ 
+//     margin-right:400px;
+
+// }

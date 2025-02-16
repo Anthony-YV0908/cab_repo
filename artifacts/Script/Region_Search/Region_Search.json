@@ -1,0 +1,27 @@
+{
+	"id": "56f77afe-003d-4a8a-a5ce-49609d532765",
+	"createdAt": "2025-01-16T09:32:30.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "7675e03d-0b48-4eee-98b3-202886352848",
+			"name": "tbl_region",
+			"contextname": "tbl_region"
+		}
+	],
+	"apis": [],
+	"name": "Region_Search",
+	"ver": "25.02.05.1135",
+	"description": null,
+	"folder": "Migration",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "2de22d32-a86c-4e1f-ae61-13f6a1b49072",
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54"
+}

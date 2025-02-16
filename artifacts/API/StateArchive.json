@@ -1,0 +1,393 @@
+{
+	"id": "315ce2c0-bdd5-4d9d-8b3f-7d840a54c9ca",
+	"createdAt": "2025-01-17T01:01:03.000Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "3258d63b-2dbb-4c9c-ab4c-b508e5b26d27",
+			"path": "/state_archive",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "state_archive"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "eb96f36d-94ca-4cc2-8899-cb597c18bc90",
+			"path": "/state_archive",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "state_archive"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "state_archive"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "1ebdc5b6-090e-4472-8ac6-8074c84992d2",
+			"path": "/state_archive",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "state_archive"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "state_archive"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "5980ec4a-a147-4035-ab14-c917f57d63ef",
+			"path": "/state_archive",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "state_archive"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "516c45e4-e720-408a-b3d1-07823772387b",
+			"path": "/state_archive/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "963faa0f-4871-4e93-8bdb-61e006a7f242",
+			"name": "state_archive",
+			"properties": [
+				{
+					"id": "58af7cce-f991-4fd4-8b93-f2ebe6eabfe2",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "dae40402-72f2-4129-a938-d371ec02db7d",
+					"parent": "",
+					"name": "StateCode",
+					"default": "20",
+					"objectType": "string"
+				},
+				{
+					"id": "c5eeec3a-7c2e-4916-9a61-75923722e4f1",
+					"parent": "",
+					"name": "StateName",
+					"default": "500",
+					"objectType": "string"
+				},
+				{
+					"id": "4818dbff-5835-4180-a88b-f4dedb87009a",
+					"parent": "",
+					"name": "CountryCode",
+					"default": "20",
+					"objectType": "string"
+				},
+				{
+					"id": "6aa0bc16-55b2-44c5-9f0b-6f8f45034bb4",
+					"parent": "",
+					"name": "CreatorUserId",
+					"objectType": "integer"
+				},
+				{
+					"id": "d0494f0c-d1d8-4be1-967c-ebd30308849e",
+					"parent": "",
+					"name": "LastModificationTime",
+					"objectType": "string"
+				},
+				{
+					"id": "2ce13389-1330-42c5-bfa6-ec4c59ca7070",
+					"parent": "",
+					"name": "LastModifierUserId",
+					"objectType": "integer"
+				},
+				{
+					"id": "b7bbac57-1d53-4e6e-9db0-c3ff9369a29c",
+					"parent": "",
+					"name": "isDeleted",
+					"default": "0",
+					"objectType": "integer"
+				},
+				{
+					"id": "41e9154d-f0a9-4fb3-b245-5ed907b95a94",
+					"parent": "",
+					"name": "DeleterUserId",
+					"objectType": "integer"
+				},
+				{
+					"id": "f412afd2-5ca6-4cbe-a093-7574b3404f25",
+					"parent": "",
+					"name": "DeletionTime",
+					"objectType": "string"
+				},
+				{
+					"id": "1a437675-b316-44e0-b390-7027bae2d751",
+					"parent": "",
+					"name": "CreationTime",
+					"objectType": "string"
+				},
+				{
+					"id": "26eed9f4-4ae1-4af8-a35f-9833e48d987c",
+					"parent": "",
+					"name": "StateId",
+					"objectType": "string"
+				},
+				{
+					"id": "96915022-0a45-4b44-91a3-797a84e2f874",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "66bc6b4a-f1ca-4125-9a9d-ad2bfe334431",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "f3982f95-24ad-41e7-a892-e7b805fa94f1",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "1d7315fd-73f2-4ff8-80ef-ff34b1f9ea06",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "e9b797ec-bfa2-4cbd-a2d5-8f349dd7e1c2",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "e3f08907-952a-4a81-8c81-099e82519ae9",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "086dd596-832e-48c9-9efb-f4a3063b4302",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "c70274bf-629c-4ab8-ae22-f8b186b8c12e",
+			"name": "count",
+			"properties": [
+				{
+					"id": "125c5d6b-e4b6-43a4-9aac-17cfb78c849a",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "StateArchive",
+	"endpoint": "/api/entity",
+	"ver": "25.02.17.0005",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54",
+	"apiGroup": "31d359ef-379b-4cbe-9b62-a2e2b4b6888f",
+	"apiFormat": 0,
+	"roles": []
+}

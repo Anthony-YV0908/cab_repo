@@ -1,0 +1,3 @@
+paginationBar2.pagination2.index--;
+paginationBar2.handleModePagination3(); // Fetch data for current mode
+paginationBar2.updatePaginationUI3(); // Reflect UI changes

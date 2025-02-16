@@ -1,0 +1,3 @@
+paginationBar11.pagination11.index--;
+paginationBar11.handleModePagination11(); 
+paginationBar11.updatePaginationUI11();

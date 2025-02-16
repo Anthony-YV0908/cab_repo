@@ -1,0 +1,359 @@
+{
+	"id": "e23ea176-b23b-44a7-ae03-38f39ded9f75",
+	"createdAt": "2024-11-27T05:29:55.000Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "de6134b9-eb47-48e9-99da-0302f5b0774c",
+			"path": "/airportcode",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "airportcode"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "866b5e9a-ecd0-45d1-950b-a33470e1fa74",
+			"path": "/airportcode",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "airportcode"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "airportcode"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "705e7907-a8f3-4340-b1f6-bd14b8329aac",
+			"path": "/airportcode",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "airportcode"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "airportcode"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "c4a282a6-336f-4bd1-88d3-6196b4860158",
+			"path": "/airportcode",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "airportcode"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "e7bc2ff8-18a6-4cc9-a933-5bc85d42b045",
+			"path": "/airportcode/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "df883712-7887-4ad1-8f85-476a847b2436",
+			"name": "airportcode",
+			"properties": [
+				{
+					"id": "0df1a90d-2bdb-4542-97ff-9715876ebbaf",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "11c8ce60-89be-4b01-9e4d-3403cef13288",
+					"parent": "",
+					"name": "Code",
+					"objectType": "string"
+				},
+				{
+					"id": "4263130d-2ae7-4e05-8841-ead05b8bd376",
+					"parent": "",
+					"name": "Name",
+					"objectType": "string"
+				},
+				{
+					"id": "4e8a07a2-7664-49de-9115-d95a0ae6525d",
+					"parent": "",
+					"name": "Service_Type",
+					"objectType": "string"
+				},
+				{
+					"id": "54818323-7537-4e64-8773-bb83a6b476a3",
+					"parent": "",
+					"name": "Country",
+					"objectType": "string"
+				},
+				{
+					"id": "a4359919-ab4c-494b-9a4f-34a9e911b93c",
+					"parent": "",
+					"name": "Country_Name",
+					"objectType": "string"
+				},
+				{
+					"id": "9acbc27a-166c-4595-ab06-85a6f2ee3093",
+					"parent": "",
+					"name": "Notes",
+					"objectType": "string"
+				},
+				{
+					"id": "edae304e-5de3-4663-84e1-406a38690f1d",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "e1fb7d28-f25e-41ca-a7f3-0d1db98bdab1",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "0174ba2c-5a11-4eba-aa8a-7912ba2972b3",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "3d3f7138-6181-442e-8524-58454776272e",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "cd9baed5-3a4d-4df5-95a7-097c82f38ce4",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "86a0330b-af9c-47f8-8698-0a250ba980e3",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "6bd50a18-5c8a-4aec-8c4e-0b03bb57d07c",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "9df1bd42-d488-4dc2-b63c-7d37b64baf43",
+			"name": "count",
+			"properties": [
+				{
+					"id": "e6f6cdc5-fc5b-4f46-bf3b-25ebf1da9b21",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "airportcode",
+	"endpoint": "/api/entity",
+	"ver": "25.02.17.0003",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54",
+	"apiGroup": "31d359ef-379b-4cbe-9b62-a2e2b4b6888f",
+	"apiFormat": 0,
+	"roles": []
+}

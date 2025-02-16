@@ -1,0 +1,7 @@
+var maxIndex = (paginationBar6.totalCount6 / paginationBar6.pagination6.take);
+maxIndex = Math.ceil(maxIndex);
+
+paginationBar6.pagination6.index = maxIndex - 1;
+paginationBar6.handleModePagination5(); // Fetch data for current mode
+paginationBar6.updatePaginationUI5(); // Reflect UI changes
+

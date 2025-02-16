@@ -1,0 +1,4 @@
+paginationBar6.pagination6.index--;
+paginationBar6.handleModePagination5(); // Fetch data for current mode
+paginationBar6.updatePaginationUI5(); // Reflect UI changes
+

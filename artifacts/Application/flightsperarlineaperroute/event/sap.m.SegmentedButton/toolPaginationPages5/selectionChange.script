@@ -1,0 +1,3 @@
+zpaginationBar5.pagination5.index = parseInt(this.getSelectedKey());
+paginationBar5.run5(true); 
+paginationBar5.handlePagination5();

@@ -1,0 +1,3 @@
+paginationBar7.pagination7.index++;
+paginationBar7.run7(true); 
+paginationBar7.handlePagination7();

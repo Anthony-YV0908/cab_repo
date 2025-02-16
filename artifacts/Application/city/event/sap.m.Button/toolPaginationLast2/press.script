@@ -1,0 +1,6 @@
+var maxIndex = (paginationBar3.totalCount3 / paginationBar3.pagination3.take);
+maxIndex = Math.ceil(maxIndex);
+
+paginationBar3.pagination3.index = maxIndex ;
+paginationBar3.handleModePagination3(); // Fetch data for current mode
+paginationBar3.updatePaginationUI3(); // Reflect UI changes

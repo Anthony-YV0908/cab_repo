@@ -1,0 +1,3 @@
+paginationBar9.pagination9.index = parseInt(this.getSelectedKey());
+paginationBar10. handleModePagination10(); 
+paginationBar10.updatePaginationUI10();

@@ -1,0 +1,4 @@
+paginationBar7.pagination7.index = parseInt(this.getSelectedKey());
+paginationBar7.handleModePagination7(); // Fetch data for current mode
+paginationBar7.updatePaginationUI7(); // Reflect UI changes
+

@@ -1,0 +1,32 @@
+{
+	"id": "b33acbf4-695f-4f90-9eb1-db3a1f37d79d",
+	"createdAt": "2024-11-25T08:00:45.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "fd74406e-c3b4-4c46-86fb-95275620da15",
+			"name": "airport_code",
+			"contextname": "airport_code"
+		},
+		{
+			"id": "b8724737-9734-4c3e-ac3e-7e118e1dc124",
+			"name": "airportcode",
+			"contextname": "airportcode"
+		}
+	],
+	"apis": [],
+	"name": "airportcode",
+	"ver": "24.12.18.1407",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "2de22d32-a86c-4e1f-ae61-13f6a1b49072",
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54"
+}

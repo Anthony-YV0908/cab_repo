@@ -1,0 +1,2 @@
+  var tableName = Table.getId() 
+exportToPDF(`#${tableName}`);

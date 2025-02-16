@@ -1,0 +1,27 @@
+{
+	"id": "7c717801-2ded-43f0-9af7-87ac18886122",
+	"createdAt": "2025-01-16T09:45:46.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "22155d81-69ac-4d0a-9abf-dd4838f4cf24",
+			"name": "tbl_province",
+			"contextname": "tbl_province"
+		}
+	],
+	"apis": [],
+	"name": "Province_Search",
+	"ver": "25.02.05.1526",
+	"description": null,
+	"folder": "Migration",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "2de22d32-a86c-4e1f-ae61-13f6a1b49072",
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54"
+}

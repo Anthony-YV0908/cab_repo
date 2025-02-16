@@ -1,0 +1,21 @@
+if (typeof EstimatedTimeDeparture === "undefined" || EstimatedTimeDeparture === null || EstimatedTimeDeparture === "") { return; }  
+
+
+const actualTime = new Date(EstimatedTimeDeparture);
+
+// Check if the parsed date is valid
+if (isNaN(actualTime.getTime())) {
+    return ''; // Return an empty string for invalid dates
+}
+
+const options = {
+    timeZone: 'Asia/Manila',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false
+};
+
+const formatter = new Intl.DateTimeFormat('en-US', options);
+const formattedTime = formatter.format(actualTime);
+
+return formattedTime;

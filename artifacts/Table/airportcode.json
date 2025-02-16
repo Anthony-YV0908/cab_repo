@@ -1,0 +1,66 @@
+{
+	"id": "b8724737-9734-4c3e-ac3e-7e118e1dc124",
+	"createdAt": "2024-11-27T05:28:53.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "d9271f99-185b-49da-fedc-571a4c9ada07",
+			"fieldName": "Code",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "123a1dba-e284-4c43-d474-485919755a94",
+			"fieldName": "Name",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "d8478f70-50e4-4d30-bb73-1112990df886",
+			"fieldName": "Service_Type",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "4ad2e9c3-15ca-420f-84f7-961f4b305c85",
+			"fieldName": "Country",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "d16ed71d-df29-4f2a-c580-411ffb252a87",
+			"fieldName": "Country_Name",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "7a1c7ca1-7e7c-4a90-ec5a-18ebe41c1b87",
+			"fieldName": "Notes",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "a1d4d739-897e-4cbc-ee9e-63d4751f949b",
+			"fieldName": "isDeleted",
+			"fieldType": "integer",
+			"isUnique": false,
+			"default": "0"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "airportcode",
+	"description": null,
+	"ver": "25.02.16.2359",
+	"enableAudit": true,
+	"includeDataInPackage": true,
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54",
+	"rolesRead": [],
+	"rolesWrite": []
+}

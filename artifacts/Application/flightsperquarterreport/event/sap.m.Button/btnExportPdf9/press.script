@@ -1,0 +1,2 @@
+tableName = Table6.getId() 
+exportToPDF(`#${tableName}`);

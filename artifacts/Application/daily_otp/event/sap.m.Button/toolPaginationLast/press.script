@@ -1,0 +1,7 @@
+var maxIndex = (paginationBar8.totalCount8 / paginationBar8.pagination8.take);
+maxIndex = Math.ceil(maxIndex);
+
+paginationBar8.pagination8.index = maxIndex;
+paginationBar8.run8(true); 
+paginationBar8.handlePagination8();
+paginationBar8.dailyDate()

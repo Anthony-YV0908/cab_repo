@@ -1,0 +1,3 @@
+paginationBar8.pagination8.index = parseInt(this.getSelectedKey());
+paginationBar8.run8(true); 
+paginationBar8.handlePagination8();

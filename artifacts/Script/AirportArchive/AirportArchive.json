@@ -1,0 +1,27 @@
+{
+	"id": "0a79bcad-4732-4474-92ba-3197109d8e1c",
+	"createdAt": "2025-01-16T09:30:24.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "a6704538-e171-408a-8272-ce7b92e4fe1d",
+			"name": "airport_archive",
+			"contextname": "airport_archive"
+		}
+	],
+	"apis": [],
+	"name": "AirportArchive",
+	"ver": "25.02.05.0955",
+	"description": null,
+	"folder": "Migration",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "2de22d32-a86c-4e1f-ae61-13f6a1b49072",
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54"
+}

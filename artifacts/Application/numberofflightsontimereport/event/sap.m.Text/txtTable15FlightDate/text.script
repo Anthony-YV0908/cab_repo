@@ -1,0 +1,8 @@
+if (typeof FlightDate === "undefined" || FlightDate === null || FlightDate === "") { 
+    return; 
+}  
+
+// Format the FlightDate using Moment.js
+var formattedText = moment(FlightDate).format('MM/DD/YY'); 
+
+return formattedText;

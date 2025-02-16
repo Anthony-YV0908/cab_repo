@@ -1,0 +1,2 @@
+deleteAirline(oEvent)
+deleteairline(oEvent) 

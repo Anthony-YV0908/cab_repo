@@ -1,0 +1,4 @@
+paginationBar8.pagination8.index--;
+paginationBar8.run8(true); 
+paginationBar8.handlePagination8();
+paginationBar8.dailyDate()

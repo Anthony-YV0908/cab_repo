@@ -1,0 +1,82 @@
+{
+	"id": "06659d37-d487-4789-97e8-cf25b4a96b3b",
+	"createdAt": "2024-10-21T05:12:23.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "ab0ebbf7-1295-4997-f892-5a3cdc0912af",
+			"fieldName": "CreatorUserId",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": ""
+		},
+		{
+			"id": "2f43ed85-a342-4046-c84e-e2385fe0b0bc",
+			"fieldName": "CreationTime",
+			"fieldType": "timestamptz",
+			"isUnique": false
+		},
+		{
+			"id": "dc1d58fd-4abf-474a-ae57-d25391efeb83",
+			"fieldName": "LastModifierUserId",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": ""
+		},
+		{
+			"id": "d61b3edc-d44a-4212-8f36-bbb4c53841d4",
+			"fieldName": "LastModificationTime",
+			"fieldType": "timestamptz",
+			"isUnique": false
+		},
+		{
+			"id": "b1b69b3b-02fa-412c-f56f-26469fbd52b3",
+			"fieldName": "DeleterUserId",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": ""
+		},
+		{
+			"id": "80e205ff-7376-4a4d-a293-d5be1a429ee0",
+			"fieldName": "DeletionTime",
+			"fieldType": "timestamptz",
+			"isUnique": false
+		},
+		{
+			"id": "1701da2f-a27d-4668-f279-4f7d79b19fac",
+			"fieldName": "isDeleted",
+			"fieldType": "smallint",
+			"isUnique": false,
+			"default": ""
+		},
+		{
+			"id": "d322cc50-df99-4310-e30c-d004f8ac0bd5",
+			"fieldName": "CityCode",
+			"fieldType": "integer",
+			"isUnique": false
+		},
+		{
+			"id": "8c276ea7-71ee-4efa-a064-984bd3991289",
+			"fieldName": "CityName",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": ""
+		},
+		{
+			"id": "a7ba9c4e-3529-4ae6-b03c-6581d1e324b3",
+			"fieldName": "CityId",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "city_archive",
+	"description": null,
+	"ver": "25.02.17.0000",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54",
+	"rolesRead": [],
+	"rolesWrite": []
+}

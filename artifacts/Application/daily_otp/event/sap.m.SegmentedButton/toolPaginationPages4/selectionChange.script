@@ -1,0 +1,3 @@
+paginationBar.pagination.index = parseInt(this.getSelectedKey());
+paginationBar3.handleModePagination2(); // Fetch data for current mode
+paginationBar3.updatePaginationUI2(); // Reflect UI changes

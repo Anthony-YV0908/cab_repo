@@ -1,0 +1,269 @@
+{
+	"id": "1d8eeb51-5f38-41b0-96e3-8040a4f3d692",
+	"createdAt": "2024-11-04T01:26:29.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "fdff6082-289e-4dba-c8f6-922089eb4133",
+			"fieldName": "OTPid",
+			"fieldType": "bigint",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "41b95add-fecb-4248-c124-fb0290eae9ac",
+			"fieldName": "DateIssued",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "364b8c85-2a76-457e-ca68-eedd0c0e34ea",
+			"fieldName": "Airport",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "573e15d3-6e82-424d-a848-0c198213364d",
+			"fieldName": "FlightId",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "82fe38fc-9e7a-4252-82f0-94b92af95e23",
+			"fieldName": "AOC",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "c6a7da2a-0d7a-4b40-f5c9-34ecd8048f37",
+			"fieldName": "Carrier",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "6fceaf4a-72e5-40c0-ca6b-cd0dca5aa894",
+			"fieldName": "FlightNumber",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "c184e951-d0a0-424a-a4ad-a994e18f0e08",
+			"fieldName": "FlightDate",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "68045a4a-5aeb-437d-d17b-81222b49a61e",
+			"fieldName": "Origin",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "c07d4195-05bb-4b2c-a0c1-adb876768767",
+			"fieldName": "Destination",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "4aa921e3-f56d-4984-fd36-f11cdbfef452",
+			"fieldName": "STD",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "f429fe2e-8c9b-4c76-c8d3-f9ed12c5083d",
+			"fieldName": "EstimatedTimeDeparture",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "b1304386-1aa8-4b1b-af77-97d7104b613a",
+			"fieldName": "ActualTimeDeParture",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "06d1a3e1-5dcb-4e26-ea05-440dbf4c0c02",
+			"fieldName": "STA",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "8bea50a9-a89c-4443-b61c-f7fd0fe5440f",
+			"fieldName": "EstimatedTimeofArrival",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "c091b1c0-2500-4277-9078-08acdc960162",
+			"fieldName": "ActualTimeofArrival",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "fdc497ec-6f99-40e4-d8e9-2f8b3d855d80",
+			"fieldName": "AdultPax",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "64625283-27d1-476a-dccd-f78e3403c9bb",
+			"fieldName": "InfantPax",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "7080ce44-a207-4162-89de-98ee9a05be1e",
+			"fieldName": "TotalPax",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "d81acbdd-4b5b-4a7e-8af1-a716ebc696e1",
+			"fieldName": "Remarks",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "284e56ad-2c6c-4318-8776-655d7fc55ede",
+			"fieldName": "IsDelayedArrival",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "457bb984-99ee-47a1-e636-563b20811d36",
+			"fieldName": "IsCancelledDeparture",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "5180d2c6-e714-4d31-e1ca-ce07471193ea",
+			"fieldName": "IsCancelledArrival",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "13a29711-f10f-4f4e-b99e-9df2429d0f50",
+			"fieldName": "IsOTPDeparture",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "313cf1d3-2daf-4695-c886-42f79f6eba6a",
+			"fieldName": "OTPDeparture",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "7764be76-488c-4556-b9c2-8386c91108a0",
+			"fieldName": "IsOTPArrival",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "e27b899a-5ca5-467e-f017-22a02fad7696",
+			"fieldName": "OTPArrival",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "a3fad506-933b-46ff-9241-df4e6933dff8",
+			"fieldName": "RecordedInFlightCancel",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "b42b9cfc-62ac-4b6c-f7c5-e42718ec3bd0",
+			"fieldName": "RecordedInFlightDelay",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "a1a78d69-8db8-4059-9891-1b5aa5e6dc72",
+			"fieldName": "DateCreated",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "a3ef6b1f-e9a8-4391-e8ec-1defa1819b62",
+			"fieldName": "DateUpdated",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "19986633-b6e3-4130-b7ba-394438667a63",
+			"fieldName": "Created",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "8a0eddb9-65ff-477f-efad-7a739761e6ad",
+			"fieldName": "Updated",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "af0f52e2-3f38-4505-8e56-74e2bff563fd",
+			"fieldName": "DateDeleted",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "f0913145-d726-41b9-efa9-dfc4efb2bddd",
+			"fieldName": "DeletedBy",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "6cc765dd-ccb1-478c-f5a0-74a40abf192c",
+			"fieldName": "isDeleted",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "daily_otp_archive",
+	"description": "Daily OTP CAB",
+	"ver": "25.02.17.0000",
+	"enableAudit": true,
+	"includeDataInPackage": true,
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54",
+	"rolesRead": [],
+	"rolesWrite": []
+}

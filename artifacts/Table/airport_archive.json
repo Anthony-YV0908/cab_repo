@@ -1,0 +1,135 @@
+{
+	"id": "a6704538-e171-408a-8272-ce7b92e4fe1d",
+	"createdAt": "2024-11-28T01:40:29.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "6613c111-4d85-4b5e-95bd-a29d795d1691",
+			"fieldName": "Code",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ce2e93ec-f75a-489e-a7ab-12dd4b2ac27e",
+			"fieldName": "IATA_Metro",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "a68965ff-6c5f-400b-c11f-b0552ecc0f25",
+			"fieldName": "Name",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "0bb48572-e00c-43fd-9f4e-9d1b33881ad8",
+			"fieldName": "City",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "134f64f7-0f8a-4e1f-de1b-8d5d650f2cf9",
+			"fieldName": "State",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "49996d83-a97f-4bed-f5ae-e1d74e506c4d",
+			"fieldName": "State_Name",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "32a7681e-5689-491f-aa0f-97a040bfdd36",
+			"fieldName": "Latitude",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"precision": "3",
+			"scale": "10"
+		},
+		{
+			"id": "335074d5-56da-4d27-fa8d-62f9015e86e6",
+			"fieldName": "Longitude",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"precision": "3",
+			"scale": "10"
+		},
+		{
+			"id": "76ced65d-8180-4dee-ea19-2980bd97c58f",
+			"fieldName": "Country",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "242140ac-64a2-446d-bf0e-1b131a378404",
+			"fieldName": "Country_Name",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "13173363-a90b-4a2a-c528-ffc84aacf177",
+			"fieldName": "Global_Region",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "1f47ec1e-dbda-4e6f-a03d-7832f3053c89",
+			"fieldName": "WAC",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"precision": "3",
+			"scale": "0"
+		},
+		{
+			"id": "d4538083-4d1c-4ac9-d3cc-fc6cc417f0aa",
+			"fieldName": "Notes",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "41ed8aba-058f-444c-db5b-ad7baf2cadc0",
+			"fieldName": "Map",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "376704d1-59a5-4e3c-c656-054eb1c273df",
+			"fieldName": "isDeleted",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": "0",
+			"isNullable": true
+		},
+		{
+			"id": "6b513017-fa71-42c4-cad7-2301e750c64f",
+			"fieldName": "AirportId",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "airport_archive",
+	"description": null,
+	"ver": "25.02.16.2359",
+	"enableAudit": true,
+	"includeDataInPackage": true,
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54",
+	"rolesRead": [],
+	"rolesWrite": []
+}

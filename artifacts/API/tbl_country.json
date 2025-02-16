@@ -1,0 +1,386 @@
+{
+	"id": "93ab9689-e296-42e7-a60e-b00a0cc8f88f",
+	"createdAt": "2024-10-22T05:16:38.000Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "345ff8d8-c8f1-44b5-b6a8-f42a1a859075",
+			"path": "/tbl_country",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "tbl_country"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "74bb7843-ac6b-4e3f-a8f7-3b5fe666e257",
+			"path": "/tbl_country",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "tbl_country"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "tbl_country"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "4064e5cf-7d6d-43da-ad79-cace96d51b9a",
+			"path": "/tbl_country",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "tbl_country"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "tbl_country"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ffe28d4f-d07b-4910-9b5c-5117ef3cc334",
+			"path": "/tbl_country",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "tbl_country"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "b6a6b757-2318-45e3-92bc-a4333196b375",
+			"path": "/tbl_country/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "5d2a2a24-f60c-4c3c-a514-1076f6ac644f",
+			"name": "tbl_country",
+			"properties": [
+				{
+					"id": "3edeedf8-7c67-4a07-8bba-f2aa4043c36d",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "6cb84df9-7aea-4bed-8feb-c641c9a0a65e",
+					"parent": "",
+					"name": "CreatorUserId",
+					"objectType": "integer"
+				},
+				{
+					"id": "a5c85fd4-63a4-4bd9-8bb3-d8f24adefb22",
+					"parent": "",
+					"name": "CreationTime",
+					"objectType": "string"
+				},
+				{
+					"id": "19a6e613-7076-44f7-9667-941b9dec86f6",
+					"parent": "",
+					"name": "LastModifierUserId",
+					"objectType": "integer"
+				},
+				{
+					"id": "8403f0c3-052a-4198-86ad-b884b49b42b0",
+					"parent": "",
+					"name": "LastModificationTime",
+					"objectType": "string"
+				},
+				{
+					"id": "313d391d-4032-4282-9e65-74a547774f5a",
+					"parent": "",
+					"name": "DeleterUserId",
+					"objectType": "integer"
+				},
+				{
+					"id": "eec04ed2-2e2f-468c-ad58-97ede4474e1c",
+					"parent": "",
+					"name": "DeletionTime",
+					"objectType": "string"
+				},
+				{
+					"id": "dcea3b85-cfe6-4dea-865f-5a0d4eb4742e",
+					"parent": "",
+					"name": "isDeleted",
+					"default": "0",
+					"objectType": "integer"
+				},
+				{
+					"id": "e2e6ec4a-63be-41d3-b5d5-8de11582f90e",
+					"parent": "",
+					"name": "CountryCode",
+					"default": "20",
+					"objectType": "string"
+				},
+				{
+					"id": "f762e041-7f04-478b-b59f-2eb6b49a39c0",
+					"parent": "",
+					"name": "CountryName",
+					"default": "500",
+					"objectType": "string"
+				},
+				{
+					"id": "e3b4bf64-96f6-4ff1-a825-54a22fe4e298",
+					"parent": "",
+					"name": "GlobalRegionCode",
+					"objectType": "integer"
+				},
+				{
+					"id": "c465fff8-14e8-4aec-9fde-9cc2f0bf6141",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "7a4373a0-bdce-4d3f-af0e-9aae23d26902",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "f0a60b0e-fc1f-4785-82c0-3804955e7c38",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "82ca2e79-e5ed-4e3d-8c12-31c6f6f3e792",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "e1c8ccad-10f5-4191-8b60-69d39a64f1f4",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "e72002bd-6c51-47ca-bcd0-7305802067e1",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "d64fc292-87c2-4131-980e-d313dc7d6b12",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "5f655a31-6b2c-4895-9b96-3cd0007002d7",
+			"name": "count",
+			"properties": [
+				{
+					"id": "88d9612a-e7f6-467a-abcf-8fe3acaf4cec",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "tbl_country",
+	"endpoint": "/api/entity",
+	"ver": "25.02.17.0006",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54",
+	"apiGroup": "31d359ef-379b-4cbe-9b62-a2e2b4b6888f",
+	"apiFormat": 0,
+	"roles": []
+}

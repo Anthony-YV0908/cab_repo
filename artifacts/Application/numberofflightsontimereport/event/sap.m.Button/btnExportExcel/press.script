@@ -1,0 +1,2 @@
+tableName = Table15.getId() 
+exportToExcel(`#${tableName}`);

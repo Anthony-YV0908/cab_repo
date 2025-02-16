@@ -1,0 +1,3 @@
+paginationBar12.pagination12.index++;
+paginationBar12.run12(true); 
+paginationBar12.handlePagination12();

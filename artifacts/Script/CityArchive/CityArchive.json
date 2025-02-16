@@ -1,0 +1,27 @@
+{
+	"id": "7eb95913-d913-4423-8f03-4e65c870b123",
+	"createdAt": "2025-01-16T09:30:34.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "06659d37-d487-4789-97e8-cf25b4a96b3b",
+			"name": "city_archive",
+			"contextname": "city_archive"
+		}
+	],
+	"apis": [],
+	"name": "CityArchive",
+	"ver": "25.02.05.1001",
+	"description": null,
+	"folder": "Migration",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "2de22d32-a86c-4e1f-ae61-13f6a1b49072",
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54"
+}

@@ -1,0 +1,2 @@
+DeleteFlight(oEvent)
+deleteFlight(oEvent)

@@ -1,0 +1,379 @@
+{
+	"id": "b744e48a-a969-43aa-b6cf-a6049b597855",
+	"createdAt": "2024-10-22T05:20:48.000Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "f6a60540-7146-4563-a757-577179f1c58e",
+			"path": "/tbl_globalregion",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "tbl_globalregion"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "72601cb6-7743-4899-95b0-dd894e301b0e",
+			"path": "/tbl_globalregion",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "tbl_globalregion"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "tbl_globalregion"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "50391e89-934c-4444-a96e-7f9e595b5fc3",
+			"path": "/tbl_globalregion",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "tbl_globalregion"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "tbl_globalregion"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "3d4bec01-5bde-4b21-91c7-9396454b2791",
+			"path": "/tbl_globalregion",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "tbl_globalregion"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "973b8d12-ab13-47c0-87b2-9fdd81f7d49c",
+			"path": "/tbl_globalregion/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "4cd4ff31-5226-4bec-968f-e616854c1032",
+			"name": "tbl_globalregion",
+			"properties": [
+				{
+					"id": "011caa79-1167-4458-82be-f0e354b844f4",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "55c2e433-0ec6-450b-974e-bc221dd5ecba",
+					"parent": "",
+					"name": "CreatorUserId",
+					"objectType": "integer"
+				},
+				{
+					"id": "bd35d7ee-5cdb-4b0e-8d11-a4df4f45eb51",
+					"parent": "",
+					"name": "CreationTime",
+					"objectType": "string"
+				},
+				{
+					"id": "b998f0dd-0c31-46d8-9499-d0af5ccb364b",
+					"parent": "",
+					"name": "LastModifierUserId",
+					"objectType": "integer"
+				},
+				{
+					"id": "754c0825-f7c3-49af-aeec-cc92bd90e05c",
+					"parent": "",
+					"name": "LastModificationTime",
+					"objectType": "string"
+				},
+				{
+					"id": "6b68ba85-814b-4936-b815-5dd986a3f1f9",
+					"parent": "",
+					"name": "DeleterUserId",
+					"objectType": "integer"
+				},
+				{
+					"id": "ea2dce0a-9fff-4f13-964f-c9e886d0fcf5",
+					"parent": "",
+					"name": "DeletionTime",
+					"objectType": "string"
+				},
+				{
+					"id": "e0592d42-7e74-4b7f-b9d6-a5b2848c8cc6",
+					"parent": "",
+					"name": "isDeleted",
+					"default": "0",
+					"objectType": "integer"
+				},
+				{
+					"id": "ca417ff7-9b59-4505-a139-bac59a99a27f",
+					"parent": "",
+					"name": "GlobalRegionCode",
+					"objectType": "integer"
+				},
+				{
+					"id": "e449c7ff-bba0-4c3b-a726-f28fd71c0272",
+					"parent": "",
+					"name": "GlobalRegionName",
+					"default": "300",
+					"objectType": "string"
+				},
+				{
+					"id": "aa758a5f-5589-4c38-b9f4-01a0fd9b98ec",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "fd0547a6-035d-4e5e-b95f-c99dd7498518",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "539946c6-9253-4a85-9121-2a7c0c6792c9",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "7cf2a4ba-4c8f-41f4-974f-f98c39ac3ed2",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "3670c63a-2e0e-47d1-a729-d9c6d7cfca8b",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "cb98a386-0ff4-4cd4-8563-a630f3b14df1",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "6b0d81aa-58ec-4f7d-afa3-a0d26a2d8021",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "0d4d7785-6a00-4697-9a52-b7cdc2eac7a7",
+			"name": "count",
+			"properties": [
+				{
+					"id": "19bea067-4869-4230-b7b9-cd3c215bb4ee",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "tbl_globalregion",
+	"endpoint": "/api/entity",
+	"ver": "25.02.17.0006",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54",
+	"apiGroup": "31d359ef-379b-4cbe-9b62-a2e2b4b6888f",
+	"apiFormat": 0,
+	"roles": []
+}

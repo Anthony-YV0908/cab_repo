@@ -1,0 +1,6 @@
+var maxIndex = (paginationBar6.totalCount6 / paginationBar6.pagination6.take);
+maxIndex = Math.ceil(maxIndex);
+
+paginationBar6.pagination6.index = maxIndex ;
+paginationBar6.run6(true); 
+paginationBar6.handlePagination6();

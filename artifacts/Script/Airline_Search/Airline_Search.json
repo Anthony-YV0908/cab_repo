@@ -1,0 +1,27 @@
+{
+	"id": "7db586bc-9896-4f3d-acbb-06ff0992ced0",
+	"createdAt": "2025-01-16T09:31:38.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "b8724737-9734-4c3e-ac3e-7e118e1dc124",
+			"name": "airportcode",
+			"contextname": "airportcode"
+		}
+	],
+	"apis": [],
+	"name": "Airline_Search",
+	"ver": "25.02.05.0009",
+	"description": null,
+	"folder": "Migration",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "2de22d32-a86c-4e1f-ae61-13f6a1b49072",
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54"
+}

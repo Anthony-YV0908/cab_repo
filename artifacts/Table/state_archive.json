@@ -1,0 +1,95 @@
+{
+	"id": "a69f84fb-6ef2-4dfb-9787-d7ded1e94673",
+	"createdAt": "2024-10-21T02:36:36.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "44869dd2-8c53-435b-aacf-9b5f22bb1698",
+			"fieldName": "StateCode",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": ""
+		},
+		{
+			"id": "f7fa632e-ddff-4746-abe9-d6b5b821bb7c",
+			"fieldName": "StateName",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": ""
+		},
+		{
+			"id": "3015ae21-f818-43f0-be15-bde3d40eb4ea",
+			"fieldName": "CountryCode",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": "",
+			"isNullable": true
+		},
+		{
+			"id": "f97dbb54-3da0-4a97-e65f-10d008f3132e",
+			"fieldName": "CreatorUserId",
+			"fieldType": "bigint",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "2cbf71e1-b954-466f-a8f1-f56aae1cb9a3",
+			"fieldName": "LastModificationTime",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "28457acc-00aa-48fb-b8e1-f707b073b655",
+			"fieldName": "LastModifierUserId",
+			"fieldType": "bigint",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "5bbe93ef-1434-4a6b-c320-62fe2aab4f39",
+			"fieldName": "isDeleted",
+			"fieldType": "smallint",
+			"isUnique": false,
+			"default": "",
+			"isNullable": true
+		},
+		{
+			"id": "c42f145b-d412-4def-d8b9-e43b36d03d83",
+			"fieldName": "DeleterUserId",
+			"fieldType": "bigint",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "a34170b0-d98b-444a-810f-1bdf14c0c26a",
+			"fieldName": "DeletionTime",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "001db290-49ef-4abf-e328-7ee71a1b4034",
+			"fieldName": "CreationTime",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "e3a97381-626e-46ac-eab4-b514d829e804",
+			"fieldName": "StateId",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "state_archive",
+	"description": null,
+	"ver": "25.02.17.0001",
+	"enableAudit": true,
+	"includeDataInPackage": true,
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54",
+	"rolesRead": [],
+	"rolesWrite": []
+}

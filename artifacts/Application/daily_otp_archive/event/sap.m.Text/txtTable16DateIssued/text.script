@@ -1,0 +1,9 @@
+if (typeof DateIssued === "undefined" || DateIssued === null || DateIssued === "") { return; }  
+const date = new Date(DateIssued);
+const formattedText = new Intl.DateTimeFormat('en-US', {
+  month: 'numeric',
+  day: 'numeric',
+  year: '2-digit'
+}).format(date);
+
+return formattedText;

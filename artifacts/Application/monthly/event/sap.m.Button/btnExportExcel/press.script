@@ -1,0 +1,2 @@
+tableName = TextTableName.getText();
+exportToExcel(`#${tableName}`);

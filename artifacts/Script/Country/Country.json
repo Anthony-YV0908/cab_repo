@@ -1,0 +1,27 @@
+{
+	"id": "f2445dcf-4ea1-4e85-9f1d-621574bb6e61",
+	"createdAt": "2025-01-16T09:30:04.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "faf99fcd-6195-4bd4-ad04-3e3e75c3f88f",
+			"name": "tbl_country",
+			"contextname": "tbl_country"
+		}
+	],
+	"apis": [],
+	"name": "Country",
+	"ver": "25.02.05.1019",
+	"description": null,
+	"folder": "Migration",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "2de22d32-a86c-4e1f-ae61-13f6a1b49072",
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54"
+}

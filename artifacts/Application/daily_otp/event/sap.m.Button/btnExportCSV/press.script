@@ -1,0 +1,8 @@
+ var tableName = Table.getId() 
+
+exportToCSV(`#${tableName}`);
+
+
+
+
+

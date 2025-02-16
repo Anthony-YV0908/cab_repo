@@ -1,0 +1,6 @@
+var maxIndex = (paginationBar11.totalCount11 / paginationBar11.pagination11.take);
+maxIndex = Math.ceil(maxIndex);
+
+paginationBar11.pagination11.index = maxIndex - 1;
+paginationBar11.handleModePagination11(); 
+paginationBar11.updatePaginationUI11();

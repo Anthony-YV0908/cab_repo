@@ -1,0 +1,200 @@
+{
+	"id": "844cec8d-5411-4d48-9466-41290d7f1632",
+	"createdAt": "2024-11-04T01:55:50.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "52f89f8e-194e-488a-a0c9-0773dbaec244",
+			"fieldName": "Month",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "6a860eed-9c7d-4524-c57a-b8b9defb138b",
+			"fieldName": "Year",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "b8212473-543d-41ca-b860-fe7db38b8d74",
+			"fieldName": "Airport",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "e151570c-c8b8-4961-a354-0b5ebfdd8c50",
+			"fieldName": "Airline",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ffcbb29f-fe6d-41d7-fe36-a5007aca3d6d",
+			"fieldName": "NoOfFlightsDeparture",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ebf7e28a-fe6b-4afa-964c-4ff566f87b80",
+			"fieldName": "NoOfFlightArrival",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "723c8df9-ad69-4973-acca-b000a8acdb3a",
+			"fieldName": "TotalFlightsFlown",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "66dd95e6-79a6-414f-aaa8-11464110830f",
+			"fieldName": "NoOfDelayedDeparture",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "3ee32625-373a-4819-801b-a9f9b4b21f49",
+			"fieldName": "NoOfDelayedArrival",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "27e908f2-e0a8-4fac-b347-dd96fbcf398b",
+			"fieldName": "TotalFlightsDelayed",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "d96939f6-6a41-4aa2-dda8-cbf4fdade68c",
+			"fieldName": "NoOfCancelledDeparture",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "bc54674c-b031-4fe5-f3c6-e44bc5ffe490",
+			"fieldName": "NoOfCancelledArrival",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "e6e4fe1a-90ed-4a3e-f1e9-498f801cba06",
+			"fieldName": "TotalFlightsCancelled",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "4682e220-463a-481b-dda6-6b99464c4594",
+			"fieldName": "NoOfOTPDeparture",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "cf2ef7d4-7096-4641-d233-5792dab04437",
+			"fieldName": "NoOfOTPArrival",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "3f694fdc-d041-4595-ffff-434032b26fc6",
+			"fieldName": "TotalFlightsOTP",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "fef3de6d-c0aa-439d-872a-351cf5b976e3",
+			"fieldName": "DEP",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "bcba25aa-40b1-41eb-b02c-9396dfec9a1c",
+			"fieldName": "ARR",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "9906ab8d-4e21-45a2-a18b-05357aeedcd0",
+			"fieldName": "TotalPercentage",
+			"fieldType": "bigint",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "9b7f4d3a-ac81-4709-caac-048ffb6d664e",
+			"fieldName": "Remarks",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "d86756b7-23eb-4c98-9238-ada1b26eb106",
+			"fieldName": "DateCreated",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "1521652e-e010-4ce0-b9c6-a6d3bf43eaf6",
+			"fieldName": "CreatedById",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "5bb03208-947e-4020-bddd-2ca373e5d086",
+			"fieldName": "UpdatedById",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ef469fce-4c63-4c7c-ddbd-908d849773ef",
+			"fieldName": "DateDeleted",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "1045271c-b89c-4742-ed55-cddd9e11ab05",
+			"fieldName": "DeletedBy",
+			"fieldType": "bigint",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "b4d605bd-5aa5-4c79-eb6f-79d63b5fa8eb",
+			"fieldName": "isDeleted",
+			"fieldType": "integer",
+			"isUnique": false,
+			"default": "0",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "monthly_otp",
+	"description": null,
+	"ver": "25.02.17.0000",
+	"enableAudit": true,
+	"includeDataInPackage": true,
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54",
+	"rolesRead": [],
+	"rolesWrite": []
+}

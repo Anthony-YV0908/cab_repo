@@ -1,0 +1,27 @@
+{
+	"id": "52466b57-45fb-433b-9078-5ba609278ebf",
+	"createdAt": "2025-02-05T01:10:51.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "844cec8d-5411-4d48-9466-41290d7f1632",
+			"name": "monthly_otp",
+			"contextname": "monthly_otp"
+		}
+	],
+	"apis": [],
+	"name": "MonthlyOTPSearch",
+	"ver": "25.02.05.0911",
+	"description": null,
+	"folder": "",
+	"content": "",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "2de22d32-a86c-4e1f-ae61-13f6a1b49072",
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54"
+}

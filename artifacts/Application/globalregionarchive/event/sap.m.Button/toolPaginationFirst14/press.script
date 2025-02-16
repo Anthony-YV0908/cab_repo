@@ -1,0 +1,3 @@
+paginationBar9.pagination9.index = 0;
+paginationBar9. handleModePagination9(); 
+paginationBar9.updatePaginationUI9();

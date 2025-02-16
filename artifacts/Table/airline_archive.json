@@ -1,0 +1,115 @@
+{
+	"id": "8a6130eb-285e-4692-a8d5-96b275d139e0",
+	"createdAt": "2024-10-21T03:20:07.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "be5d0568-449b-4c41-eda2-b1505a5b0b34",
+			"fieldName": "CreatorUserId",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": "",
+			"isNullable": true
+		},
+		{
+			"id": "acf54933-59a3-4961-fbca-856210225fdb",
+			"fieldName": "CreationTime",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "0a1e2ef4-5386-4021-f4d4-c7af42e2aab1",
+			"fieldName": "LastModifierUserId",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": "",
+			"isNullable": true
+		},
+		{
+			"id": "463cf6fc-5d33-4131-ad4c-d4514115a17e",
+			"fieldName": "LastModificationTime",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "3106d032-b8a9-4928-edab-af3f9b71b961",
+			"fieldName": "DeleterUserId",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": "",
+			"isNullable": true
+		},
+		{
+			"id": "8973ba9f-7cb1-496b-9dbd-1f009e8cf101",
+			"fieldName": "IsDeleted",
+			"fieldType": "smallint",
+			"isUnique": false,
+			"default": "",
+			"isNullable": true
+		},
+		{
+			"id": "cea9bcf6-db77-4445-fdae-b987f8fe5679",
+			"fieldName": "AirlineCode",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "160a2022-40ae-4cf6-8886-ef987ed88118",
+			"fieldName": "AirlineName",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": "",
+			"isNullable": true
+		},
+		{
+			"id": "a12f17d9-c6e0-4c1e-bad0-dc5b038807be",
+			"fieldName": "ServiceType",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": "",
+			"isNullable": true
+		},
+		{
+			"id": "9ec80415-1077-40be-86f4-392e45a6bf67",
+			"fieldName": "CountryCode",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": "",
+			"isNullable": true
+		},
+		{
+			"id": "7e14a17a-b82e-4d5e-aedb-119c183c71cc",
+			"fieldName": "CountryName",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "a063f4e4-4f4c-469c-b8dc-e281ae9bbb3d",
+			"fieldName": "AirlineId",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "048910fc-81cf-49d7-ceea-9356a8f63e45",
+			"fieldName": "Notes",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "airline_archive",
+	"description": null,
+	"ver": "25.02.16.2359",
+	"enableAudit": true,
+	"includeDataInPackage": true,
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54",
+	"rolesRead": [],
+	"rolesWrite": []
+}

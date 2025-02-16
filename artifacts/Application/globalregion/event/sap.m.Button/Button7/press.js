@@ -1,0 +1,2 @@
+
+deleteGlobalRegion(oEvent) 

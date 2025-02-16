@@ -1,0 +1,2 @@
+deleteCountry(oEvent)
+deletecountry(oEvent)

@@ -1,0 +1,2 @@
+deleteAirport(oEvent) 
+deleteairport(oEvent) 

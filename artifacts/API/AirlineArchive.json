@@ -1,0 +1,408 @@
+{
+	"id": "d5a70f8d-8d4b-4b92-af39-465998f97c39",
+	"createdAt": "2025-01-17T00:56:12.000Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "533c0fec-5829-41a9-98ab-2acadf68b368",
+			"path": "/airline_archive",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "airline_archive"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "e16cb350-1bd2-4b1d-94d5-c53b195ca3f7",
+			"path": "/airline_archive",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "airline_archive"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "airline_archive"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "0943e800-38a8-41d4-aec8-e1282dfc04ff",
+			"path": "/airline_archive",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "airline_archive"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "airline_archive"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "740763d4-ea4d-49ac-a44f-68e3d1983ade",
+			"path": "/airline_archive",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "airline_archive"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "3ce41659-2027-4c09-971e-860935ef7328",
+			"path": "/airline_archive/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "913c28c2-93b9-4d13-b57a-39d25bce0870",
+			"name": "airline_archive",
+			"properties": [
+				{
+					"id": "492b07e7-0a44-4750-b7d8-4fa7984280a6",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "544900bf-a9fc-43cc-a378-d03b39c8fded",
+					"parent": "",
+					"name": "CreatorUserId",
+					"default": "",
+					"objectType": "string"
+				},
+				{
+					"id": "25c45bac-6cb3-4001-a860-df727cae5b87",
+					"parent": "",
+					"name": "CreationTime",
+					"objectType": "string"
+				},
+				{
+					"id": "7d8d9758-302f-4737-b83b-170aa0b63b71",
+					"parent": "",
+					"name": "LastModifierUserId",
+					"default": "",
+					"objectType": "string"
+				},
+				{
+					"id": "66131e06-f1fb-4890-931b-620b658107b0",
+					"parent": "",
+					"name": "LastModificationTime",
+					"objectType": "string"
+				},
+				{
+					"id": "50f51787-d3c1-4eed-b80a-1fb98b141fa6",
+					"parent": "",
+					"name": "DeleterUserId",
+					"default": "",
+					"objectType": "string"
+				},
+				{
+					"id": "3575cb29-523c-48de-a9fd-28998f977ed8",
+					"parent": "",
+					"name": "IsDeleted",
+					"default": "",
+					"objectType": "integer"
+				},
+				{
+					"id": "f29b22b6-e4cf-4ff2-b57e-bded22bd59c5",
+					"parent": "",
+					"name": "AirlineCode",
+					"objectType": "string"
+				},
+				{
+					"id": "bdfb726e-59fe-41ba-a6ea-aba938cf6c10",
+					"parent": "",
+					"name": "AirlineName",
+					"default": "",
+					"objectType": "string"
+				},
+				{
+					"id": "8be097dd-eecb-4ce7-adb2-24aba7805853",
+					"parent": "",
+					"name": "ServiceType",
+					"default": "",
+					"objectType": "string"
+				},
+				{
+					"id": "c91d3aa3-253c-44c5-95c8-ab5cf7fcc023",
+					"parent": "",
+					"name": "CountryCode",
+					"default": "",
+					"objectType": "string"
+				},
+				{
+					"id": "3eb9f457-4988-462d-ab56-6faf0683ff41",
+					"parent": "",
+					"name": "CountryName",
+					"objectType": "string"
+				},
+				{
+					"id": "f656df63-a8af-4c11-80e5-a328d807bfea",
+					"parent": "",
+					"name": "AirlineId",
+					"objectType": "string"
+				},
+				{
+					"id": "a335b919-801c-4284-a9e6-43713102d770",
+					"parent": "",
+					"name": "Notes",
+					"objectType": "string"
+				},
+				{
+					"id": "2ef39ec6-e35f-4c27-a019-669b7b9b49b3",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "6ab61f7c-d645-4178-9ad4-a0dec5e2e57c",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "dcb6ea1d-c178-4234-b3a6-ab563f3af947",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "e5173a20-f034-459a-8b8e-f76505bcef64",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "3288d4cb-0470-42ca-82b3-b872c6fcb1e8",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "353dbc69-2d67-4870-b488-4bc656b31916",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "f6f60eda-92d5-49c1-802f-623af373de05",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "9ce8bb27-4172-42c9-8bef-b3cd10330e37",
+			"name": "count",
+			"properties": [
+				{
+					"id": "7b5cc1fd-797c-4cb8-8b49-bcee24d8f07c",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "AirlineArchive",
+	"endpoint": "/api/entity",
+	"ver": "25.02.17.0003",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54",
+	"apiGroup": "31d359ef-379b-4cbe-9b62-a2e2b4b6888f",
+	"apiFormat": 0,
+	"roles": []
+}

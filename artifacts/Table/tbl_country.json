@@ -1,0 +1,90 @@
+{
+	"id": "faf99fcd-6195-4bd4-ad04-3e3e75c3f88f",
+	"createdAt": "2024-10-21T02:02:45.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "31a3d830-3e84-4b26-e3b2-8d6acf215cf0",
+			"fieldName": "CreatorUserId",
+			"fieldType": "bigint",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "f8a32cfb-78f8-4507-e152-d0129b874ab6",
+			"fieldName": "CreationTime",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "7b241b7d-a849-4efc-e2b7-8f2f6b61ce5d",
+			"fieldName": "LastModifierUserId",
+			"fieldType": "bigint",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "fb96b95c-a3d8-4b4d-d926-f8bf8a291ca1",
+			"fieldName": "LastModificationTime",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "31d70f2c-6656-4f8a-b802-d4239b8a3513",
+			"fieldName": "DeleterUserId",
+			"fieldType": "bigint",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "95d77ab0-4bfa-4f47-f1d2-9efb6653905c",
+			"fieldName": "DeletionTime",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "f9d58265-85b6-4080-8f6b-c62b3ba9f4bb",
+			"fieldName": "isDeleted",
+			"fieldType": "smallint",
+			"isUnique": false,
+			"default": "0",
+			"isNullable": true
+		},
+		{
+			"id": "f663284b-1c1c-442c-80bd-9074618ace94",
+			"fieldName": "CountryCode",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": "20",
+			"isNullable": true
+		},
+		{
+			"id": "df90de45-4098-4528-da10-dcfd48316cf5",
+			"fieldName": "CountryName",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": "500",
+			"isNullable": true
+		},
+		{
+			"id": "e536da89-df23-4955-ea7f-4f100979f62c",
+			"fieldName": "GlobalRegionCode",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "tbl_country",
+	"description": null,
+	"ver": "25.02.17.0001",
+	"enableAudit": true,
+	"includeDataInPackage": true,
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54",
+	"rolesRead": [],
+	"rolesWrite": []
+}

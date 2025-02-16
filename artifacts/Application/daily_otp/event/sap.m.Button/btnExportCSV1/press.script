@@ -1,0 +1,6 @@
+var tableName = TextTableName.getText();
+exportToCSV(`#${tableName}`);
+
+
+console.log(tableName) 
+

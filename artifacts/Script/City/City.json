@@ -1,0 +1,27 @@
+{
+	"id": "64d2609e-12de-4c6d-a2f9-455947088b9c",
+	"createdAt": "2025-01-16T09:18:15.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "9a16dc92-8077-4b52-b85b-8c0723107ab1",
+			"name": "tbl_city",
+			"contextname": "tbl_city"
+		}
+	],
+	"apis": [],
+	"name": "City",
+	"ver": "25.02.05.1015",
+	"description": null,
+	"folder": "Migration",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "2de22d32-a86c-4e1f-ae61-13f6a1b49072",
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54"
+}

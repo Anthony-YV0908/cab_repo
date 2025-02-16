@@ -1,0 +1,361 @@
+{
+	"id": "0e8f8aa9-a322-441a-9a7c-c933b51362e2",
+	"createdAt": "2024-11-04T01:26:29.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "97821d53-2c7b-4103-f660-cf36df43c848",
+			"fieldName": "DateIssued",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "0bd819e8-e84c-4446-826f-30763b3a6083",
+			"fieldName": "Airport",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "9e9e934a-5f06-4948-d1a6-6e79327d231e",
+			"fieldName": "FlightId",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "6f544159-1f1d-4956-d9a8-bf8748b4e5c1",
+			"fieldName": "AOC",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "a23af6ca-f11b-4374-a83d-1978aafc39da",
+			"fieldName": "Carrier",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "e3f957e6-8ed2-4193-e215-987643caa2db",
+			"fieldName": "FlightNumber",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "45f41fe8-68f1-4fd7-94c2-6076cf2b1864",
+			"fieldName": "FlightDate",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "52dc610e-5534-4225-a696-2d7e35670903",
+			"fieldName": "Origin",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "92c75192-6efd-420a-9cf7-20c3024e55b4",
+			"fieldName": "Destination",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "184954be-74c3-4921-aca9-9d627674241f",
+			"fieldName": "STD",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "86554827-06c7-4e2a-c591-a2d95414cb79",
+			"fieldName": "EstimatedTimeDeparture",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "c7688ec2-50df-4ee5-cfdd-d10d7e318070",
+			"fieldName": "ActualTimeDeparture",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "a62cce0d-b41c-46c3-cac6-c04822ef775d",
+			"fieldName": "STA",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "d34eb4bc-a291-436d-986a-0afb3973914c",
+			"fieldName": "EstimatedTimeofArrival",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "d00b9e03-2414-4466-d403-c792cf03467a",
+			"fieldName": "ActualTimeofArrival",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "b78db940-244e-4046-f6b9-63333f2833a1",
+			"fieldName": "AdultPax",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ed77f31c-0156-433b-b53c-9215f97de435",
+			"fieldName": "InfantPax",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "66a4b90c-0948-494f-d077-fc89dc447e2a",
+			"fieldName": "TotalPax",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "e0e3f5f4-0215-4b6c-f77a-76f7b33c8c02",
+			"fieldName": "Remarks",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "dc9a2722-ad3d-4f46-a7ed-ff850c0c693b",
+			"fieldName": "IsDelayedDeparture",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "8b506331-9926-41a5-8696-a1bc3d9c53b4",
+			"fieldName": "IsDelayedArrival",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "c8a9e847-dfb9-4bba-a781-8d604b8f0dd7",
+			"fieldName": "IsCancelledDeparture",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "9430347a-b7ef-4963-e7f1-5a8e5886e5ab",
+			"fieldName": "IsCancelledArrival",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "a364a464-3c85-4021-8cd4-54c8bf2d33b9",
+			"fieldName": "IsOTPDeparture",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "614814e0-96a9-449a-d4a2-7f05c320a4ae",
+			"fieldName": "OTPDeparture",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "d5b98764-91c8-4fb5-e503-f4590cb3a048",
+			"fieldName": "IsOTPArrival",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "2f461d03-cc58-48c3-fdbe-b990b7df2bc0",
+			"fieldName": "OTPArrival",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "6b5c93fe-7be7-409b-9ae7-10937904a8af",
+			"fieldName": "RecordedInFlightCancel",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "eb128994-ebf1-42d5-e870-c781a949f381",
+			"fieldName": "RecordedInFlightDelay",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "5a3a3665-5225-45cd-a4ad-a3da90963ff6",
+			"fieldName": "DateCreated",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "fba5fb9d-baf0-4a13-e2f6-f2df66aad838",
+			"fieldName": "DateUpdated",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "5ab2e14b-0e6a-4c38-d54d-8cc232d338cb",
+			"fieldName": "Created",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "311278e2-d329-4532-f9a4-dca894824c72",
+			"fieldName": "Updated",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "a7bf3438-66c0-4b3e-951f-6a958dc245b0",
+			"fieldName": "DateDeleted",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "23e5ea24-01b8-443d-e5fd-5bb514b808dd",
+			"fieldName": "DeletedBy",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "cbc745dd-8ecb-4419-b2bc-b7c0dcc51200",
+			"fieldName": "isDeleted",
+			"fieldType": "integer",
+			"isUnique": false,
+			"default": "0",
+			"isNullable": true
+		},
+		{
+			"id": "5125e47f-0e37-4c67-a8b8-2b24742d52ec",
+			"fieldName": "DelayedHours",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "b232d984-d2f9-4550-de0f-dc9c0cc2d869",
+			"fieldName": "NoOfBookedPassengers",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "e7f22487-3c84-48ee-80ba-e906770efa3b",
+			"fieldName": "NoOfAffectedPassengers",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "47ef8872-eeb4-4340-b948-07a5b89fb296",
+			"fieldName": "ReasonCode",
+			"fieldType": "integer",
+			"isUnique": false,
+			"default": "0",
+			"isNullable": true
+		},
+		{
+			"id": "45e82e78-f58f-491e-e87b-6ad50d070c2a",
+			"fieldName": "RemarksCancelled",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": "",
+			"isNullable": true
+		},
+		{
+			"id": "b5a30b1d-f56d-4a5b-871c-5b3634eab699",
+			"fieldName": "IsFreeFood",
+			"fieldType": "integer",
+			"isUnique": false,
+			"default": "0",
+			"isNullable": true
+		},
+		{
+			"id": "7718839e-49f8-40db-b5c7-dccfa887a46d",
+			"fieldName": "IsRefund",
+			"fieldType": "integer",
+			"isUnique": false,
+			"default": "0",
+			"isNullable": true
+		},
+		{
+			"id": "8c40286f-1b33-42ea-bb02-39274c0f2400",
+			"fieldName": "IsFreeTicket_TravelVoucher",
+			"fieldType": "integer",
+			"isUnique": false,
+			"default": "0",
+			"isNullable": true
+		},
+		{
+			"id": "b31cc341-c5dd-4d4e-ea1a-f71e4c857916",
+			"fieldName": "IsEndorsementToOtherCarrier",
+			"fieldType": "integer",
+			"isUnique": false,
+			"default": "0",
+			"isNullable": true
+		},
+		{
+			"id": "ba934c4a-6c67-4c6c-c207-ca6e5a4b46d5",
+			"fieldName": "IsRerouting_RecoveryFlight",
+			"fieldType": "integer",
+			"isUnique": false,
+			"default": "0",
+			"isNullable": true
+		},
+		{
+			"id": "66ab28ff-37b1-4a76-a4bb-6f1c2a5eea0e",
+			"fieldName": "OtherAccomodations",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "59bbec4f-d419-4d0a-b0f6-be2f6c74a933",
+			"fieldName": "EditedBy",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "daily_otp",
+	"description": "Daily OTP CAB",
+	"ver": "25.02.17.0002",
+	"enableAudit": true,
+	"includeDataInPackage": true,
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54",
+	"rolesRead": [],
+	"rolesWrite": []
+}

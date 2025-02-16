@@ -1,0 +1,3 @@
+paginationBar5.pagination5.index++;
+paginationBar5.handleModePagination5(); 
+paginationBar5.updatePaginationUI5();

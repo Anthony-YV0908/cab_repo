@@ -1,0 +1,97 @@
+{
+	"id": "bbee47f3-b20f-43a6-9976-eaaa39157aa9",
+	"createdAt": "2024-10-21T03:32:54.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "b3938e73-1d6a-41a5-e088-4afb8fc49dc3",
+			"fieldName": "ProvinceCode",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "33628556-33c8-4552-8b01-c33581206523",
+			"fieldName": "ProvinceName",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": "",
+			"isNullable": true
+		},
+		{
+			"id": "ba3c30c7-5e48-4937-d42d-b13429e6e675",
+			"fieldName": "RegionCode",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": "",
+			"isNullable": true
+		},
+		{
+			"id": "8a7df890-e161-4be8-cc3d-a15acc5cd312",
+			"fieldName": "CreationTime",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "fc255659-e87a-40af-813d-09f33ac573d1",
+			"fieldName": "CreatorUserId",
+			"fieldType": "bigint",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "faad961c-e724-41c3-e27c-c050d479b8ed",
+			"fieldName": "LastModificationTime",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "b93d6b33-d8ac-4a4a-95fc-2fa6ee05a69b",
+			"fieldName": "LastModifierUserId",
+			"fieldType": "bigint",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "955d475f-096a-4aba-d97b-0aeb97541496",
+			"fieldName": "isDeleted",
+			"fieldType": "smallint",
+			"isUnique": false,
+			"default": "",
+			"isNullable": true
+		},
+		{
+			"id": "d01bf615-31dd-4e82-95e0-037a782334bb",
+			"fieldName": "DeletionUserId",
+			"fieldType": "bigint",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "e93bb2f5-6cda-4b17-d2f4-a1c43a950627",
+			"fieldName": "DeletionTime",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "7ecca74b-d4d9-4876-fd3f-28eb0961ab9a",
+			"fieldName": "ProvinceId",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "province_archive",
+	"description": null,
+	"ver": "25.02.17.0000",
+	"enableAudit": true,
+	"includeDataInPackage": true,
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54",
+	"rolesRead": [],
+	"rolesWrite": []
+}

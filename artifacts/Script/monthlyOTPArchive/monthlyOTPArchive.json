@@ -1,0 +1,27 @@
+{
+	"id": "ac9b0b3d-72ac-478c-8ae9-f1857774f7c6",
+	"createdAt": "2025-02-05T01:11:27.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "ab8d611d-6382-4ad2-8f10-ab60b3bbbb99",
+			"name": "monthly_otp_archive",
+			"contextname": "monthly_otp_archive"
+		}
+	],
+	"apis": [],
+	"name": "monthlyOTPArchive",
+	"ver": "25.02.13.1433",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "2de22d32-a86c-4e1f-ae61-13f6a1b49072",
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54"
+}

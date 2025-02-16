@@ -1,0 +1,4 @@
+paginationBar1.pagination1.index = parseInt(this.getSelectedKey());
+paginationBar1.run1(true); 
+paginationBar1.handlePagination1();
+paginationBar1.searchAirport(true)

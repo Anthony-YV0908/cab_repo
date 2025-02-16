@@ -1,0 +1,22 @@
+[
+	{
+		"id": "5c726ddf-5756-425b-a920-1591fbe0eac9",
+		"createdAt": "1738744411067",
+		"updatedAt": "1738744585594",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"CreatorUserId": null,
+		"CreationTime": null,
+		"LastModifierUserId": null,
+		"LastModificationTime": null,
+		"DeleterUserId": null,
+		"IsDeleted": 1,
+		"AirlineCode": "---",
+		"AirlineName": "---",
+		"ServiceType": "Unknown",
+		"CountryCode": "99",
+		"CountryName": "Country Unknown",
+		"AirlineId": "89b8a77e-b1a8-4cd5-8067-f3d4160af07a",
+		"Notes": null
+	}
+]

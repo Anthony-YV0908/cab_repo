@@ -1,0 +1,480 @@
+{
+	"id": "41fd419f-5bd8-4046-b201-fbe35f67351b",
+	"createdAt": "2025-01-16T07:18:53.000Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "59aeedae-8892-46a6-804b-52de43d42e96",
+			"path": "/monthly_otp",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "monthly_otp"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "b965773e-bfed-4f72-b208-129740f8fc65",
+			"path": "/monthly_otp",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "monthly_otp"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "monthly_otp"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "39c32ef5-f2ba-4806-bfb8-2f02c38dec70",
+			"path": "/monthly_otp",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "monthly_otp"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "monthly_otp"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "be78917b-6dce-4c52-aa88-ee86cf02a44c",
+			"path": "/monthly_otp",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "monthly_otp"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ce1aaaca-5d58-48a0-bbe5-1dd22eeb1edd",
+			"path": "/monthly_otp/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "d10106d0-d0bb-493e-a0a6-dba61a6a352f",
+			"name": "monthly_otp",
+			"properties": [
+				{
+					"id": "11fc0b04-205e-4472-bc9d-5f8e559c1959",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "1de30e37-bb3e-494f-9ce2-1f55324fa0f9",
+					"parent": "",
+					"name": "Month",
+					"objectType": "string"
+				},
+				{
+					"id": "139afe3e-42a1-4847-a8bf-d453816e0125",
+					"parent": "",
+					"name": "Year",
+					"objectType": "string"
+				},
+				{
+					"id": "107f3b48-9870-4c0b-8003-bf0a200497c7",
+					"parent": "",
+					"name": "Airport",
+					"objectType": "string"
+				},
+				{
+					"id": "0770e68e-e6cc-4eef-8ec6-205c010b6c9b",
+					"parent": "",
+					"name": "Airline",
+					"objectType": "string"
+				},
+				{
+					"id": "6f941046-7a0e-41f5-a38b-55d4c4129d66",
+					"parent": "",
+					"name": "NoOfFlightsDeparture",
+					"objectType": "integer"
+				},
+				{
+					"id": "ce821994-ab01-42e8-8189-aa315cc897a9",
+					"parent": "",
+					"name": "NoOfFlightArrival",
+					"objectType": "integer"
+				},
+				{
+					"id": "3d657979-f773-4214-8909-36f5b0397270",
+					"parent": "",
+					"name": "TotalFlightsFlown",
+					"objectType": "integer"
+				},
+				{
+					"id": "b1691195-36f2-4c63-9547-07f1881bb2a1",
+					"parent": "",
+					"name": "NoOfDelayedDeparture",
+					"objectType": "integer"
+				},
+				{
+					"id": "43d903eb-1722-4a4b-a978-4fd658d2388e",
+					"parent": "",
+					"name": "NoOfDelayedArrival",
+					"objectType": "integer"
+				},
+				{
+					"id": "dd41cb1a-b79d-4250-b167-dc16356158b4",
+					"parent": "",
+					"name": "TotalFlightsDelayed",
+					"objectType": "integer"
+				},
+				{
+					"id": "138200ac-5f4c-41fb-82e6-f6df5dd986c2",
+					"parent": "",
+					"name": "NoOfCancelledDeparture",
+					"objectType": "integer"
+				},
+				{
+					"id": "17fa64f8-bad9-4db6-8224-1090b4cd3c31",
+					"parent": "",
+					"name": "NoOfCancelledArrival",
+					"objectType": "integer"
+				},
+				{
+					"id": "eea4f08a-22ed-4907-bc14-68357b61750d",
+					"parent": "",
+					"name": "TotalFlightsCancelled",
+					"objectType": "integer"
+				},
+				{
+					"id": "6d2ce257-60ea-47bd-834d-dc9b7cdd22ec",
+					"parent": "",
+					"name": "NoOfOTPDeparture",
+					"objectType": "integer"
+				},
+				{
+					"id": "4ef8f3b1-abad-4135-aeb3-7aa2a3f6dde4",
+					"parent": "",
+					"name": "NoOfOTPArrival",
+					"objectType": "integer"
+				},
+				{
+					"id": "0345b753-64d6-4a58-9c5a-9e8f01560f5a",
+					"parent": "",
+					"name": "TotalFlightsOTP",
+					"objectType": "integer"
+				},
+				{
+					"id": "b7bbe4d2-475d-4e57-a8f6-4084fa644af3",
+					"parent": "",
+					"name": "DEP",
+					"objectType": "integer"
+				},
+				{
+					"id": "8b23bf94-4709-4cba-97e6-3197689f6cf1",
+					"parent": "",
+					"name": "ARR",
+					"objectType": "integer"
+				},
+				{
+					"id": "83bd49eb-231a-4bdb-96ea-f0921be50861",
+					"parent": "",
+					"name": "TotalPercentage",
+					"objectType": "integer"
+				},
+				{
+					"id": "347bca2a-e38b-43c6-ba37-8dc3153caad1",
+					"parent": "",
+					"name": "Remarks",
+					"objectType": "string"
+				},
+				{
+					"id": "00664c7a-71ea-4bcd-a124-5034133dfe8b",
+					"parent": "",
+					"name": "DateCreated",
+					"objectType": "string"
+				},
+				{
+					"id": "e12e864e-cfba-4c53-bacd-b35819b71ad0",
+					"parent": "",
+					"name": "CreatedById",
+					"objectType": "integer"
+				},
+				{
+					"id": "654cddcb-94df-4931-b449-09bba4baa904",
+					"parent": "",
+					"name": "UpdatedById",
+					"objectType": "integer"
+				},
+				{
+					"id": "37a8bdb9-520e-4848-b54f-7a2a460d0bb4",
+					"parent": "",
+					"name": "DateDeleted",
+					"objectType": "string"
+				},
+				{
+					"id": "0afee841-4726-4b4b-a3b3-62fb6935b3d5",
+					"parent": "",
+					"name": "DeletedBy",
+					"objectType": "integer"
+				},
+				{
+					"id": "520d3fc0-fa75-4d81-bd31-c7ca8d4d422f",
+					"parent": "",
+					"name": "isDeleted",
+					"default": "0",
+					"objectType": "integer"
+				},
+				{
+					"id": "14c14a39-3ce2-4785-8a93-332501545194",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "49fe2377-dc0e-4a14-83a4-3e703b19a230",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "73fa5477-1cd6-4e85-9f96-f9c0ffe4a5a1",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "10576acc-cf87-4b2b-9778-7334d70a9756",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "8e432120-55ea-4aaf-8f31-4743de77bbf4",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "9c45d5bb-f3e2-4b18-b493-678c0e94b240",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "83cedea8-9632-4580-9a25-604a792a105d",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "af221c9b-49b0-45ee-80aa-3dd6a6b04f16",
+			"name": "count",
+			"properties": [
+				{
+					"id": "2c3ec646-671f-4351-90fb-c68a5cc28628",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "monthly_otp",
+	"endpoint": "/api/entity",
+	"ver": "25.02.17.0005",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54",
+	"apiGroup": "31d359ef-379b-4cbe-9b62-a2e2b4b6888f",
+	"apiFormat": 0,
+	"roles": []
+}

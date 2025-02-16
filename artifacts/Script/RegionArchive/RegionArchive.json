@@ -1,0 +1,27 @@
+{
+	"id": "29fa6703-ce1c-43c4-b16e-204a68deb9b1",
+	"createdAt": "2025-01-16T09:31:13.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "3d739b93-b5da-4359-8ed5-34a4ce88401d",
+			"name": "region_archive",
+			"contextname": "region_archive"
+		}
+	],
+	"apis": [],
+	"name": "RegionArchive",
+	"ver": "25.02.05.1003",
+	"description": null,
+	"folder": "Migration",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "2de22d32-a86c-4e1f-ae61-13f6a1b49072",
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54"
+}

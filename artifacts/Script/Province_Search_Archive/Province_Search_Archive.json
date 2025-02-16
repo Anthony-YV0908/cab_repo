@@ -1,0 +1,27 @@
+{
+	"id": "939c3231-137c-42e2-a7ae-5a005b26a69f",
+	"createdAt": "2025-01-31T04:27:07.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "bbee47f3-b20f-43a6-9976-eaaa39157aa9",
+			"name": "province_archive",
+			"contextname": "province_archive"
+		}
+	],
+	"apis": [],
+	"name": "Province_Search_Archive",
+	"ver": "25.01.31.1457",
+	"description": null,
+	"folder": "Migration",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "2de22d32-a86c-4e1f-ae61-13f6a1b49072",
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54"
+}

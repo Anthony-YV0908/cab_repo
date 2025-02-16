@@ -1,0 +1,82 @@
+{
+	"id": "e55b25f9-f911-4a53-a706-32e2962a17fc",
+	"createdAt": "2024-10-21T05:16:20.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "3d5666a8-d7bf-4705-e6e7-d00b2c842672",
+			"fieldName": "CreatorUserId",
+			"fieldType": "bigint",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "0ca6b088-b67b-424a-e71b-94584acf529b",
+			"fieldName": "CreationTime",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "502c251a-3a0e-4b11-a70e-e90b40371ee9",
+			"fieldName": "LastModifierUserId",
+			"fieldType": "bigint",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "d659b0eb-fb70-400d-f531-41dd8555722d",
+			"fieldName": "LastModificationTime",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "bb768fc6-01d0-4ca5-a7cc-e1c8a550b5d8",
+			"fieldName": "DeleterUserId",
+			"fieldType": "bigint",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "f891de77-03f1-4916-f833-73f1881a9282",
+			"fieldName": "DeletionTime",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "32d2f374-d316-4a1e-bffb-72557ef978b6",
+			"fieldName": "isDeleted",
+			"fieldType": "smallint",
+			"isUnique": false,
+			"default": "0",
+			"isNullable": true
+		},
+		{
+			"id": "f2506111-9563-4f18-e512-ab25028f7e37",
+			"fieldName": "GlobalRegionCode",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "12b6eee3-23b7-4cb3-f41d-eb33f8d4351e",
+			"fieldName": "GlobalRegionName",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": "",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "tbl_globalregion",
+	"description": null,
+	"ver": "25.02.17.0001",
+	"enableAudit": true,
+	"includeDataInPackage": true,
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54",
+	"rolesRead": [],
+	"rolesWrite": []
+}

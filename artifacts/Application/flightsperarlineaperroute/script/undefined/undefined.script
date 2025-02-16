@@ -1,0 +1,15 @@
+.my-table {
+  width: 200px; /* Set the visible width */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: hidden; /* Optional: Hide vertical scrollbar */
+  white-space: nowrap; /* Prevent table content from wrapping */
+}
+
+.Button1 {
+  background-color: aqua;
+  background: green;
+}
+
+.CreateButton {
+  width: 500px;
+}

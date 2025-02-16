@@ -1,0 +1,2 @@
+tableName = Table13.getId() 
+exportToCSV(`#${tableName}`);

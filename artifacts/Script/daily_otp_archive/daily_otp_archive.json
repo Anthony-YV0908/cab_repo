@@ -1,0 +1,27 @@
+{
+	"id": "424a9744-3fbd-4605-a2e5-29df4c20a5cc",
+	"createdAt": "2024-11-25T07:55:25.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "1d8eeb51-5f38-41b0-96e3-8040a4f3d692",
+			"name": "daily_otp_archive",
+			"contextname": "daily_otp_archive"
+		}
+	],
+	"apis": [],
+	"name": "daily_otp_archive",
+	"ver": "25.02.13.1330",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "2de22d32-a86c-4e1f-ae61-13f6a1b49072",
+	"package": "4c7d7d8c-3894-4fc0-b240-48797f475a54"
+}
