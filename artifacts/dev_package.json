@@ -110,6 +110,15 @@
 			}
 		},
 		{
+			"id": "9ad709ae-da44-4e37-b383-1dd28288c54f",
+			"application": "admindashboard",
+			"title": "Admin Dashboard",
+			"description": "",
+			"package": {
+				"id": "4c7d7d8c-3894-4fc0-b240-48797f475a54"
+			}
+		},
+		{
 			"id": "9a336aa0-75cb-469a-b7d5-f873bcc818fe",
 			"application": "globalregionarchive",
 			"title": "",
